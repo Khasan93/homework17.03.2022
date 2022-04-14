@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.big-box{
+    margin: 40px auto;
+    width: 500px;
+    height: 300px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+.left-side{
+    width: 33%;
+    height: 100%;
+    background-color: green;
+    border-right: 2px solid black;
+}
+.right-side{
+    width: 67%;
+    height: 100%;
+    display: block;
+}
+
+.top{
+    width: 100%;
+    height: 50%;
+    background-color: brown;
+}
